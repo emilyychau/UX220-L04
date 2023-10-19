@@ -1,1 +1,0 @@
-Emphasis and Strengthened

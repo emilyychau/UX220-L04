@@ -8,12 +8,23 @@ Complete the code to open a different web page from each circle.
     -->
     <style>
         img{
-        max-width: 100%;
+        max-width: 100%; align-items: center;
         }
+        h1{
+        text-align: center
+        }
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+figcaption{text-align: center;}
     </style>   
 </head>
 <body>
-    <img src="https://cdn4.vectorstock.com/i/1000x1000/29/38/park-plan-vector-492938.webp" alt="parkplan"
+    <h1>Clickable HTML Image Map</h1>
+    <img src="https://cdn4.vectorstock.com/i/1000x1000/29/38/park-plan-vector-492938.webp" class="center" alt="parkplan"
         usemap="#parkplan" />
     <map name="parkplan" id="parkplan">
         <area shape="circle" coords="245,185,90" title="Park" alt="Top left circle" target="_blank" rel="noopener" href="https://media.istockphoto.com/id/1186780076/photo/playground-aerial-view.jpg?s=612x612&w=0&k=20&c=v84zsD7morcltDeAZWuGR5dIHWtw0E_8qRZ3Ja_iHjE=">

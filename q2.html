@@ -7,11 +7,17 @@
 a) Write a short article with appropriate headings in html that describes the key differences between writing in google docs and in an html document.
 b) Use Google fonts and an embedded stylesheet to set the default text font face to inter and all heading text to roboto.
     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Inter:wght@500&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Roboto', 'sans-serif'
+    }
+    h1, h2, h3 {font-family: 'Inter', 'sans-serif'}</style>
 </head>
-
 <body>
     <x-markdown2html>
-Write a short article here
     </x-markdown2html>
     <script src="https://rhildred.github.io/custom-element/custom-element.js"></script>
 </body>

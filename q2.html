@@ -9,17 +9,35 @@ b) Use Google fonts and an embedded stylesheet to set the default text font face
     -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
 <style>
-    body {
+    h1, h2, h3, h4 {
         font-family: 'Roboto', 'sans-serif'
     }
-    h1, h2, h3 {font-family: 'Inter', 'sans-serif'}</style>
+    body {font-family: 'Inter', 'sans-serif'}
+    .column {
+        float: left;
+    }
+    .left {width: 50%;
+    }
+    .right {
+    width: 50%;
+    }
+</style>
 </head>
 <body>
-    <x-markdown2html>
-    </x-markdown2html>
-    <script src="https://rhildred.github.io/custom-element/custom-element.js"></script>
+<h1>Key Differences Between Writing in Google Docs vs. HTML</h1>
+<div class="row">
+    <div class="column left"></div>
+    <h2>Google Docs</h2>
+    <p>In Google Docs, it is really easy way to start writing down in a document. The barrier to entry is quite low, given that there is some familiarity with the Google Suite of products, and if not that is also okay because of the intuitiveness of the website or app version of Google Docs, it just entails some reading of labels and the information needed by the user to create their first document will easily present itself. From there, the user can just start typing and words will appear into that text editor. If they choose to do no further edits, whatever was typed in will still be visible and present with the default formating. </p>
+    <h3>Default Layout</h3>
+    <p>Ariel, left justified, 11 point font</p>
+    <div class="column right"></div>
+    <h2>HTML</h2>
+    <p>In HTML, there is a contrast between the ease of</p>
+    <h3>Default Layout</h3>
+    <p>Times New Roman, left justified, 16px</p>
+  </div>
 </body>
-
 </html>
